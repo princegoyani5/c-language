@@ -2,24 +2,18 @@
 #include<conio.h>
 main()
 {
-	int i,n;
+	int n,i=1;
 	clrscr();
 
-	printf("enter starting year : ");
-	scanf("%d",&i);
-	printf("enter ending year : ");
-	scanf("%d",&i);
+	printf("enter a: ");
+	scanf("%d",&n);
 
-	while(i<=n)
+	while(i<=10)
 	{
-		if(i%4==0)
-		{
 
-			printf("%d",i);
-		}
+		printf("%d * %d =%d\n",n,i,n*i);
 		i++;
-       }
-	getch();
-}
+	}
+
 	getch();
 }

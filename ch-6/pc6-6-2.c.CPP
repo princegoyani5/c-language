@@ -8,10 +8,10 @@ main()
 	printf("enter n : ");
 	scanf("%d",&n);
 
-	for(i=1; i<=n; i++)
+	for(i=1; i>=n; i++)
 	{
-		sum += i;
-
+		sum += n;
+		n--;
 	}
 
 	printf("%d",sum);
