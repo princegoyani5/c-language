@@ -24,7 +24,7 @@ main()
 		fn++;
 	}
 	printf("the array id : \n");
-	for(i=0; i<=k; i+++)
+	for(i=0; i<=k; i++)
 	
 	printf("%d",a[i]);
 }
