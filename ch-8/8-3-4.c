@@ -1,4 +1,5 @@
-#include<stdio.h>
+
+	#include<stdio.h>
 main()
 
 {
@@ -8,8 +9,7 @@ main()
 		scanf("%d",&r);
 		printf("enter number of column");
 		scanf("%d",&c);
-		
-		int a[r][c],i,j;
+			int a[r][c],i,j;
 		
 		for(i=0; i<r; i++)
 			{
