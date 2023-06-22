@@ -10,11 +10,18 @@ main()
 	
 	for(i=0; i<20; i++)
 	{
-		if(str[i] >= 65 && str[i] <= 90)
+		if(str[i] >= 97 && str[i] >= 122)
 		{
-			str[i] += 32;
+			str[i] -= 32;
+		}
+		else
+		{
+			if(str[i] >= 65 && str[i] <=90)
+			{
+				str[i] += 32
+			}
 		}
 	}
-	printf("lowercase string : %s",str);
+	printf("togglecase string : %s",str);
 	
 }
