@@ -3,7 +3,7 @@ main()
 {
 	char a[20];
 	int i,j,count=1;
-	
+	 
 	printf("enter string : ");
 	scanf("%s",&a);
 	
