@@ -3,7 +3,7 @@
 main()
 {
 	char pass[20] = "123456",email[20] =  "admin@gmail.com";
-	pass[20],email2[20];
+	char pass[20],email2[20];
 	
 
 	
