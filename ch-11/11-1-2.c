@@ -2,6 +2,7 @@
 void main()
 {
 	int a,b;
+	
 	printf("enetr the value of a : ");
 	scanf("%d",&a);
 	printf("enetr the value of b : ");

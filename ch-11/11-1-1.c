@@ -2,6 +2,7 @@
 void main()
 {
 	int p;
+	system("color 89");
 	printf("enetr array size : ");
 	scanf("%d",&p);
 	
